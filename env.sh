@@ -13,5 +13,5 @@ ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 # install plugins 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc 
 zsh
